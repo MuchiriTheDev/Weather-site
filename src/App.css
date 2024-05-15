@@ -39,3 +39,25 @@
   width: 30px;
   height: 30px;
 }
+@media (max-width: 700px) {
+  .container{
+    margin-top: 20px;
+    height: 70vh;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #searchbar{
+    min-height: 90px;
+  }
+  #search-input{
+    width: 20em;
+    height: 30px;
+    padding: 10px 20px;
+    margin: 5px 20px;
+  }
+  .search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}

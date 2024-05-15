@@ -30,3 +30,14 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 700px) {
+    .weather-image{
+        width: 60px;
+    }
+    .temp{
+        font-size: 35px;
+    }
+    .location{
+        font-size: 20px;
+    }
+}

@@ -30,3 +30,27 @@
     font-size: 15px;
     font-weight: 400;
 }
+@media (max-width: 700px) {
+    .element-img{
+        width: auto;
+        height: 40px;
+    }
+    .name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .measurement{
+        font-size: 10px;
+    }
+    .details{
+        margin: 0 10px 0 10px;
+    }
+    #element{
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+    }
+}

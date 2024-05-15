@@ -14,7 +14,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  display: flex;
+  display: flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: center !important;
 }
